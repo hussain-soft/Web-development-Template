@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap");
+
+/* Navbar css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.logo a,
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.container {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.menu {
+  width: 80%;
+  float: left;
+  text-transform: capitalize;
+}
+.menu ul {
+  float: right;
+  list-style: none;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+.menu ul li a:hover {
+  color: white;
+  transition: 0.4s;
+}
+.o-btn {
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.o-btn a {
+  color: white !important;
+}
+.o-btn:hover {
+  background-color: transparent;
+}
+.clear {
+  clear: both;
+}
+
+/* Home css */
+
+.hero {
+  background: url("https://cdn.pixabay.com/photo/2015/01/09/11/11/office-594132_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100px 0px;
+  color: white;
+}
+.hero .overlay h1 {
+  font-size: 46px;
+}
+
+/* ------2nd Home------ */
+
+.my-grid {
+  padding: 10px 0px;
+}
+.heading {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.heading h1 {
+  font-size: 26px;
+}
+.col33 {
+  /* background: chocolate; */
+  width: 33.33333%;
+  float: left;
+}
+.card {
+  background: #efefef;
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 3px silver;
+}
+.card i {
+  font-size: 46px;
+}
+.btn {
+  background: black;
+  border: 1px solid black;
+  color: white;
+  width: 200px;
+  height: 37px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+/* Intrested in buying section */
+
+.call2action {
+  background: #efefef;
+  margin: 50px 0px;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+/* OFFer section */
+.call2action {
+  padding: 100px;
+}
+
+/* subscription section */
+.col66 {
+  width: 66.666667%;
+  float: left;
+}
+.field {
+  width: 100%;
+  height: 31px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 16px;
+  padding-left: 5px;
+}
+.form-field {
+  padding: 20px;
+  padding-left: 0px;
+}
+.newsletter {
+  padding-bottom: 30px auto;
+}
+.newsletter .container {
+  margin-bottom: 50px;
+}
+
+/* Footer section */
+
+footer {
+  padding: 40px 0px;
+  background-color: black;
+  color: white;
+}
+.col25 {
+  width: 25%;
+  float: left;
+}
+footer .inner {
+  padding: 10px;
+}
+.fmenu {
+  padding-left: 0;
+}
+.fmenu li {
+  line-height: 30px;
+  list-style: none;
+}
+.fmenu li a {
+  color: white;
+  text-decoration: none;
+}
+.fmenu li:hover a {
+  color: orange;
+  transition: 0.6s;
+}
+
+.s-icons {
+  padding-left: 0px;
+}
+.s-icons li {
+  list-style: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50px;
+  position: relative;
+  transition: 0.6s;
+}
+/* .s-icons li:hover {
+  background: orange;
+} */
+.s-icons li a {
+  color: black;
+}
+.s-icons li a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.s-icons li:hover {
+  background: orange;
+}
+.too {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  header {
+    padding-bottom: 10px;
+  }
+  .container {
+    width: 100%;
+  }
+  .menu,
+  .logo {
+    float: none;
+    width: 100%;
+  }
+  .logo h2 {
+    text-align: center;
+  }
+  .menu ul {
+    float: none;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .hero .overlay {
+    text-align: center;
+  }
+  .col33,
+  .col66,
+  .col25 {
+    float: none;
+    width: 100%;
+  }
+  /* .call2action .container .offer {
+    text-align: center;
+    float: none;
+    width: 100%;
+  } */
+}
